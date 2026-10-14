@@ -1,0 +1,14 @@
+{
+  "name": "php-baremetal/i2c-contract",
+  "description": "Neutral I2C driver contract: Headers only, no HAL.",
+  "version": "1.0.0",
+  "type": "bm-contract",
+  "license": "MIT",
+  "extra": {
+    "baremetal": {
+      "kind": "contract",
+      "bus": "i2c",
+      "include-dir": "include"
+    }
+  }
+}
